@@ -162,4 +162,32 @@ button:hover {
     .video-wrapper {
         height: 240px; /* Altezza ulteriormente ridotta per schermi molto piccoli */
     }
+}
+
+.video-link {
+    display: inline-block;
+    padding: 20px 40px;
+    background: #4ecca3;
+    color: #1a1a2e;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    margin: 20px 0;
+}
+
+.video-link:hover {
+    background: #3aa789;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+#video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 20px 0;
 } 
